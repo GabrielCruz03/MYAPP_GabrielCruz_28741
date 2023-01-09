@@ -1,0 +1,51 @@
+.img-flag {
+    width: 40px;
+    margin: 2.5px;
+}
+
+#darkmode-icon-sol {
+    font-size: 25px;
+}
+
+#darkmode-toggle {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#darkmode-icon-lua {
+    font-size: 25px;
+}
+
+ion-card-header.ios {
+    display: flex;
+    flex-flow: column-reverse;
+}
+
+.welcome-section {
+    height: 80%;
+    width: 80%;
+    margin: 10%;
+    text-align: center;
+}
+
+.welcome-section:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.welcome-texto {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.welcome-texto h1 {
+    color: var(--ion-color-dark);
+    font-weight: 700;
+}
+
+.welcome-texto p {
+    color: var(--ion-color-dark);
+    font-size: 22px;
+}

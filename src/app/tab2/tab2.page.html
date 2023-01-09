@@ -1,0 +1,24 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <img src="../../assets/images/Flags/Flag_PT.svg" class="img-flag" (click)="changeLanguage('pt')"
+      alt="{{ 'Bandeira Portugal' | translate }}">
+    <img src="../../assets/images/Flags/Flag_US.svg" class="img-flag" (click)="changeLanguage('en')"
+      alt="{{ 'Bandeira Estados Unidos' | translate }}">
+    <ion-title>
+      {{ 'Página Inicial' | translate }}
+    </ion-title>
+    <ion-icon id="darkmode-icon-sol" slot="end" name="sunny-outline"></ion-icon>
+    <ion-toggle id="darkmode-toggle" slot="end" (ionChange)="toggleDarkMode()"></ion-toggle>
+    <ion-icon id="darkmode-icon-lua" slot="end" name="moon-outline"></ion-icon>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <div class="welcome-section">
+    <div class="welcome-texto">
+      <h1>{{ 'Bem-Vindo!' | translate }}</h1>
+      <p>{{ 'Navega pela aplicação' | translate }} <br> {{ 'utilizando o menu inferior!' | translate }}</p>
+    </div>
+  </div>
+</ion-content>

@@ -1,0 +1,238 @@
+//HEADER SECTION - DARK MODE AND LANGUAGE
+.img-flag {
+    width: 40px;
+    margin: 2.5px;
+}
+
+#darkmode-icon-sol {
+    font-size: 25px;
+}
+
+#darkmode-toggle {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#darkmode-icon-lua {
+    font-size: 25px;
+}
+
+/*Perfil Section*/
+ion-card-header.ios {
+    display: flex;
+    flex-flow: column-reverse;
+}
+
+.perfil-section .link-email {
+    text-decoration: none;
+    color: var(--ion-color-light);
+}
+
+.perfil-section ion-card-title {
+    font-size: 24px;
+}
+
+.perfil-section img {
+    width: 75px;
+    height: 75px;
+    border-radius: 25%;
+    margin-left: 75px;
+}
+
+.perfil-section ion-icon {
+    width: 20px;
+    height: 20px;
+}
+
+/*---x---*/
+
+/*Habilidades Section*/
+.habilidades-section {
+    color: var(--ion-color-light);
+    width: 80%;
+    margin: 15px auto;
+}
+
+.habilidades-section .icon1 {
+    color: var(--ion-color-primary);
+}
+
+.habilidades-section .icon2 {
+    color: var(--ion-color-light-shade);
+}
+
+.habilidades-section p {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.habilidades-titulo {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.habilidades-link {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.habilidades-topico {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 80%;
+}
+
+/*---x---*/
+
+/*Idiomas Section*/
+.idiomas-section {
+    color: var(--ion-color-light);
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.idiomas-section .icon1 {
+    color: var(--ion-color-success);
+}
+
+.idiomas-section .icon2 {
+    color: var(--ion-color-light-shade);
+}
+
+.idiomas-section p {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.idioma {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.idioma-nome {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.icons-estrelas {
+    width: 25px;
+    height: 25px;
+}
+
+.flag-language-PT {
+    background-image: url(../../assets/images/Flags/Flag_PT.svg);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    margin-left: 25px;
+}
+
+.flag-language-EN {
+    background-image: url(../../assets/images/Flags/Flag_US.svg);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    margin-left: 25px;
+}
+
+.flag-language-FR {
+    background-image: url(../../assets/images/Flags/Flag_FR.svg);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    margin-left: 25px;
+}
+
+/*---x---*/
+
+/*Educacao Section*/
+.educacao-section {
+    color: var(--ion-color-light);
+    width: 80%;
+    margin: 15px auto;
+}
+
+.educacao-section .icon1 {
+    color: var(--ion-color-purple);
+}
+
+.educacao-section .icon2 {
+    color: var(--ion-color-light-shade);
+}
+
+.educacao-section p {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.educacao-parametros {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: var(--ion-color-dark);
+}
+
+/*---x---*/
+
+/*Projetos Section*/
+.projetos-section {
+    color: var(--ion-color-light);
+    width: 80%;
+    margin: 15px auto;
+}
+
+.projetos-section .icon1 {
+    color: var(--ion-color-orange);
+}
+
+.projetos-section .icon2 {
+    color: var(--ion-color-light-shade);
+}
+
+.projetos-section p {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.projeto-card img {
+    width: 200px;
+    margin-top: 5px;
+    margin-left: 10%;
+}
+
+.projeto-card ion-card-content {
+    color: var(--ion-color-dark);
+    text-align: justify;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+/*---x---*/
+
+/*Redes Sociais Section*/
+.redes-sociais-section {
+    background-color: var(--ion-color-dark);
+    width: 75%;
+    margin: 20px auto;
+}
+
+.redes-sociais-section ion-card-title {
+    color: var(--ion-color-light);
+    font-size: 20px;
+    text-align: center;
+}
+
+.social {
+    text-decoration: none;
+    color: var(--ion-color-light);
+    margin-left: 15px;
+}
+
+.social ion-icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/*---x---*/

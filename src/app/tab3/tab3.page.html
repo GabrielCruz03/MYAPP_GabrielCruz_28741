@@ -1,0 +1,49 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      {{ 'Definições' | translate }}
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content [fullscreen]="true">
+
+  <ion-card color="dark">
+    <ion-card-header>
+      <ion-card-subtitle style="text-align: center;"> {{ 'Definições de Personalização' | translate }}</ion-card-subtitle>
+
+    </ion-card-header>
+  </ion-card>
+
+  <ion-card color="medium">
+    <ion-card-content>
+      <ion-row>
+        <ion-col>
+          <div class="definicao-tema">{{ 'Alterar Tema' | translate }}</div>
+        </ion-col>
+        <ion-col class="definicao-acao">
+          <div style="margin-left: 20px;">
+            <ion-icon id="darkmode-icon-sol" slot="end" name="sunny-outline"></ion-icon>
+            <ion-toggle id="darkmode-toggle" slot="end" (ionChange)="toggleDarkMode()"></ion-toggle>
+            <ion-icon id="darkmode-icon-lua" slot="end" name="moon-outline"></ion-icon>
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card color="medium">
+    <ion-card-content>
+
+      <div class="definicao-idioma">{{ 'Alterar Idioma' | translate }}</div>
+      <br>
+      <div class="definicao-acao">
+        <ion-button color="dark" (click)="changeLanguage('en')">
+          {{'Inglês' | translate }}
+        </ion-button>
+        <ion-button color="dark" (click)="changeLanguage('pt')">
+          {{'Português' | translate }}
+        </ion-button>
+      </div>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
