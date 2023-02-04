@@ -58,7 +58,7 @@ This pratical work aims to create an application that is your professional profi
   - Figma
 </p>
 
-# 📱 Preview
+# 📱 Online Preview
 <p align="center">
-  <img src="https://imgpile.com/images/doIYKl.png" alt="Logo" width="auto" height="auto">
+  <a href="myionicapp-gabriel-cruz.vercel.app/">Click here to see live demo</a>
 </p>
