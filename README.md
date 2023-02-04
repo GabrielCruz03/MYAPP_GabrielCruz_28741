@@ -59,6 +59,6 @@ This pratical work aims to create an application that is your professional profi
 </p>
 
 # 📱 Online Preview
-<p align="center">
-  <a href="myionicapp-gabriel-cruz.vercel.app/">Click here to see live demo</a>
+<p align="left">
+  <a href="https://myionicapp-gabriel-cruz.vercel.app/" target="_blank">Click here to see live demo</a>
 </p>
