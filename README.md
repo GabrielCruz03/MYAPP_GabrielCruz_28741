@@ -55,7 +55,7 @@ This pratical work aims to create an application that is your professional profi
   - GitHub
 </p>
 <p>
-  - Figma
+  - Uizard
 </p>
 
 # 📱 Online Preview
